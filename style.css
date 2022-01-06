@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    padding: 0;
 }
 
 h1{
@@ -11,7 +12,7 @@ h2{
 }
 .section-container{
     display: flex;
-    margin: 50px;
+    margin: 50px 20px;
 }
 
 .half-width{
@@ -25,6 +26,9 @@ h2{
 .mission-text-color{
     color: darkcyan;
 }
+.border-line-color{
+    border-left: 4px solid crimson;
+}
 .explore-btn{
     border: none;
     padding: 10px 20px;
@@ -32,10 +36,7 @@ h2{
     border-radius: 5px;
     color: white;
 }
-.small-text{
-    border-top: 1px solid cornflowerblue;
-    width: 250px;
-}
+
 .my-mission-22{
     text-align: center;
 }
@@ -44,4 +45,51 @@ h2{
 }
 .year-color{
     color: orange;
+}
+
+.mission-area{
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.mission-area img{
+    width: 40%;
+}
+.mission-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 120px;
+    margin-bottom: 100px;
+}
+#area-back-color{
+    background-color: #ffe6ff;
+}
+#area-back-color-2{
+    background-color: #e6fff5;
+}
+#area-back-color-3{
+    background-color: #f7e6ff;
+}
+.develop-back-img{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: left;
+}
+.develop-section img{
+    width: 60%;
+    padding-left: 85px;
+}
+
+.g-container{
+    display: flex;
+    padding-left: 100px;
+    justify-content: space-between;
+    text-align: left;
+}
+.g-half-width{
+    width: 50%;
+}
+.g-half-width img{
+    width: 60%;
 }
