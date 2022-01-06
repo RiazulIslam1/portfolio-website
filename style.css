@@ -1,0 +1,47 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.section-container{
+    display: flex;
+    margin: 50px;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+
+.half-width img{
+    width: 70%;
+}
+.mission-text-color{
+    color: darkcyan;
+}
+.explore-btn{
+    border: none;
+    padding: 10px 20px;
+    background-color:lightcoral;
+    border-radius: 5px;
+    color: white;
+}
+.small-text{
+    border-top: 1px solid cornflowerblue;
+    width: 250px;
+}
+.my-mission-22{
+    text-align: center;
+}
+.mission-color{
+    color: rgb(0, 0, 80);
+}
+.year-color{
+    color: orange;
+}
